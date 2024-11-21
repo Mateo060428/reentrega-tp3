@@ -1,0 +1,24 @@
+// styles.scss
+
+// Importar Variables
+@import './variables/variables';
+
+// Importar Mixins
+@import './mixins/mixins';
+
+// Importar Animaciones
+@import './animaciones/animations';
+
+// Importar Componentes
+@import './componentes/navbar';
+@import './componentes/hero';
+@import './componentes/card';
+@import './componentes/button';
+@import './componentes/footer';
+@import './componentes/catalogo';
+@import './componentes/modal';
+@import './componentes/badge';
+@import './componentes/body';
+// Importar Layouts
+@import './layouts/grid';
+@import './layouts/media-queries';

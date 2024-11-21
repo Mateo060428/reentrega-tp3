@@ -1,0 +1,11 @@
+// _badge.scss
+
+.badge-nuevo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: $primary-color;
+    color: $light-color;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }

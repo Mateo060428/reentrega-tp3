@@ -1,0 +1,21 @@
+// _hero.scss
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imagenes/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: $light-color;
+    padding: 100px 0;
+    text-align: center;
+  
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+  
+    p {
+      font-size: $font-size-md;
+      margin-bottom: 2rem;
+    }
+  }

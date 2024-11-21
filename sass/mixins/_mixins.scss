@@ -1,0 +1,13 @@
+// _mixins.scss
+
+// Mixin para transición
+@mixin transition($property, $duration) {
+    transition: $property $duration ease;
+  }
+  
+  // Mixin para cambio de color al hacer hover
+  @mixin hover-bg($color) {
+    &:hover {
+      background-color: $color;
+    }
+  }

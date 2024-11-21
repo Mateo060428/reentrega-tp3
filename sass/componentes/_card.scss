@@ -1,0 +1,38 @@
+// _card.scss
+
+.card {
+    @include transition(transform, 0.3s);
+    border: none;
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  
+    .card-title {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .catalogo-section {
+    padding: 4rem 0;
+  
+    .card {
+      margin-bottom: 2rem;
+    }
+  
+    .precio {
+      font-size: 1.25rem;
+      color: $primary-color;
+      font-weight: bold;
+    }
+  }

@@ -1,0 +1,208 @@
+:root {
+  --primary-color: #4A90E2;
+  --secondary-color: #357ABD;
+  --dark-color: #343a40;
+  --light-color: white;
+  --gray-color: #6c757d;
+  --background-color: #f8f9fa;
+  --font-size-lg: 1.8rem;
+  --font-size-md: 1.2rem;
+  --font-size-sm: 1rem;
+  --font-size-base: 25px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../imagenes/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border: none;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card .card-body {
+  padding: 1.5rem;
+}
+.card .card-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.catalogo-section {
+  padding: 4rem 0;
+}
+.catalogo-section .card {
+  margin-bottom: 2rem;
+}
+.catalogo-section .precio {
+  font-size: 1.25rem;
+  color: #4A90E2;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #4A90E2;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #357ABD;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 3rem 0;
+  margin-top: 4rem;
+}
+footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #4A90E2;
+}
+
+.precio-anterior {
+  text-decoration: line-through;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.precio-actual {
+  color: #4A90E2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.badge-nuevo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #4A90E2;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.modal-header {
+  background-color: #4A90E2;
+  color: #fff;
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.badge-nuevo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #4A90E2;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: blue;
+  font-size: 25px;
+}
+h1 {
+  text-align: center;
+}
+
+.texto {
+  color: black;
+  font-size: 25px;
+  margin: 20px;
+  text-align: center;
+  font-style: italic;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 30%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+  .card-img-top {
+    height: 180px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
